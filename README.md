@@ -1,7 +1,7 @@
 # VORA Protocol Demo
 
 <p align="center">
-  <img src="docs/assets/vora_logo.png" width="160" />
+  <img src="docs/assets/vora_logo.jpeg" width="160" />
 </p>
 
 
