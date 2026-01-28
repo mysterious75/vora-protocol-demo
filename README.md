@@ -1,5 +1,10 @@
 # VORA Protocol Demo
 
+<p align="center">
+  <img src="docs/assets/vora-logo.png" width="160" />
+</p>
+
+
 ## Overview
 The VORA Protocol Demo provides a minimal, security-focused demonstration of the core concepts behind the VORA photo authenticity protocol. This demo is intended for evaluation, developer education, and internal review by companies and technical teams.
 
