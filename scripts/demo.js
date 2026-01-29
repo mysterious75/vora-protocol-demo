@@ -25,6 +25,20 @@ async function main() {
 	await regTx.wait();
 	console.log("Photo registered:", photoHash);
 
+	// 2.5. Batch register demo (max 10 entries)
+	const batchHashes = [];
+	const batchMetadatas = [];
+	for (let i = 1; i <= 10; i++) {
+		const batchInput = `batch-photo-${i}` + Math.random().toString();
+		const batchHash = ethers.utils.keccak256(ethers.utils.toUtf8Bytes(batchInput));
+		const batchMetadata = JSON.stringify({ note: `batch demo photo ${i}` });
+		batchHashes.push(batchHash);
+		batchMetadatas.push(batchMetadata);
+	}
+	const batchTx = await contract.batchRegister(batchHashes, batchMetadatas);
+	await batchTx.wait();
+	console.log("Batch registration (max 10) demo complete");
+
 	// 3. Verify as admin (anyone can in demo)
 	const verifyTx = await contract.verifyPhoto(photoHash);
 	await verifyTx.wait();
