@@ -29,7 +29,7 @@ This repository contains a minimal on-chain proof-of-concept implementation of t
 
 This section demonstrates the successful execution of the VORA Protocol Demo:
 
-![Demo Run](docs/assets/demo-run.png)
+![Demo Run](docs/assets/demo_run.png)
 
 *Figure 1: Successful execution of the demo script, showcasing photo registration and verification flow.*
 
