@@ -3,7 +3,7 @@
 ## Verification of Origin and Reality Authenticity (VORA)
 
 <p align="center">
-  <img src="docs/assets/vora_logo.jpeg" width="160" alt="VORA Protocol Logo" />
+  <img src="docs/assets/vora_logo.png" width="160" alt="VORA Protocol Logo" />
 </p>
 
 ## Overview
