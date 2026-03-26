@@ -73,7 +73,7 @@ Production or commercial usage of the VORA Protocol requires a separate commerci
 
 For licensing inquiries:
 
-- **Email:** vedkumar755@gmail.com
+- **Email:** support@voraprotocol.com
 - **Subject:** "Commercial License Inquiry"
 - Please provide your company name, intended use, and contact details.
 
